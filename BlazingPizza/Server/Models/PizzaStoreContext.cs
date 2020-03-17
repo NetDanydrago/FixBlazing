@@ -16,7 +16,7 @@ namespace BlazingPizza.Server.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-8QA1TRA;Initial Catalog=PizzaStore;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=TIW1004\SQLEXPRESS;Initial Catalog=PizzaStore;Integrated Security=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
