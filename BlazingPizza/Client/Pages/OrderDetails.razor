@@ -63,7 +63,7 @@
 
     protected override void OnParametersSet()
     {
-        pollingCancelationToken.Cancel();
+        pollingCancelationToken?.Cancel();
         PollForUpDates();
     }
 }
